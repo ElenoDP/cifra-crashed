@@ -33,3 +33,8 @@ R: O motivo é a divisibilidade comum.Quando o (MDC(K, N) = E) e esse (E) é mai
   bém é feito de "unidades de (D)" (10 = 5 * 2), você voltará ao zero (completará o ciclo) assim que somar (D) vezes o su
   ficiente para atingir (N). Você nunca tocará nos números ímpares porque não existe uma combinação de somas de 2 que resulte em um número ímpar.
   O "buraco" entre os múltiplos de (D) é intransponível.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Questão Complementar:
+  Como você faria para "restaurar" os espaços e a pontuação original a partir da string limpa?
+  Descreva a lógica (não é necessário codificar esta parte).
+R: Para recuperar espaço e pontuação original, precisaria de uma chave que mapeia quais caracteres vão ter acentos de acordo com uma metodologia escolhida. Pode ser também uma permutação com uma lista dos caracteres, um XOR bit por bit da mensagem com a chave, tem muitas opções e maneiras diferentes.
